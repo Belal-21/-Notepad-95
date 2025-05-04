@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notepad - 95</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">
+      <span class="title">Notepad</span>
+      <div class="buttons">
+        <button>_</button>
+        <button>▢</button>
+        <button>X</button>
+      </div>
+    </div>
+
+    <div class="menu-bar">
+      <span onclick="triggerFileMenu()">File</span>
+      <span>Edit</span>
+      <span>Help</span>
+    </div>
+
+    <textarea class="editor" placeholder="Start typing..."></textarea>
+
+    <div class="file-menu hidden" id="fileMenu">
+      <div onclick="saveFile()">Save</div>
+      <div onclick="openFile()">Open</div>
+    </div>
+
+    <input type="file" id="fileInput" accept=".txt" style="display: none" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
