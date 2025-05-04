@@ -3,7 +3,7 @@
 A retro-style Notepad app built with **HTML, CSS, and JavaScript**, inspired by the classic look of Windows 95.
 
 ## 🌐 Try it Live
-> [🔗 Open Notepad-95 Web App](https://belal-21.github.io/-notepad-95/)
+> [🔗 Open Notepad-95 Web App](https://belal-21.github.io/-Notepad-95//)
 
 (No install needed — runs right in your browser!)
 
